@@ -41,7 +41,7 @@ module.exports = {
                 return od['expires'];
             }
         } catch (e) { }
-        return 0;
+        return -1;
     },
     parse(cookie) {
         let obj = {};
